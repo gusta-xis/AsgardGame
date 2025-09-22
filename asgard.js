@@ -33,19 +33,19 @@ class Character {
 const frigg = new Character(
     'Frigg, a Sábia de Asgard',
     'Você possui a sabedoria e a intuição de Frigg, a rainha de Asgard. Sua maior força reside na sua capacidade de ver além do presente e de tecer o destino com cautela e graça. Você é um conselheiro confiável e um guardião do lar.',
-    'https://placehold.co/400x400/2b3046/ffd700?text=Frigg'
+    'https://img.freepik.com/premium-photo/nordic-goddess-frigg-norse-germanic-mythology_1040474-9844.jpg'
 );
 
 const thor = new Character(
     'Thor, o Trovão de Asgard',
     'Você é forte, corajoso e leal, como Thor, o deus do trovão. Sua força é inigualável e você não hesita em lutar por aquilo que é justo. Sua presença é uma garantia de segurança e sua determinação é uma força da natureza.',
-    'https://placehold.co/400x400/2b3046/ffd700?text=Thor'
+    'https://cdn.pixabay.com/photo/2025/02/13/14/16/thor-9403973_1280.png'
 );
 
 const loki = new Character(
     'Loki, o Astuto de Asgard',
     'Você é um mestre da astúcia e da transformação, assim como Loki. Sua mente é seu principal campo de batalha, e você usa a inteligência e a trapaça para alcançar seus objetivos. Você é imprevisível, mas sempre fascinante.',
-    'https://placehold.co/400x400/2b3046/ffd700?text=Loki'
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZdhaFgjYZWXT8Kun3aVbnU27vN7hK4tWNNg&s'
 );
 
 // Array de personagens
