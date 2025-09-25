@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filho de Asgard</title>
+    <link rel="stylesheet" href="asgard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="game-container" class="container">
+
+        <!-- Página Inicial -->
+        <div id="welcome-screen" class="screen">
+            <h1>Filho de Asgard</h1>
+            <p>Em um mundo de deuses e gigantes, qual é o seu verdadeiro destino? Responda a este quiz e descubra se você tem a sabedoria de Frigg, a força de Thor ou a astúcia de Loki.</p>
+            <button id="start-btn" class="btn">Começar a Jornada</button>
+        </div>
+
+        <!-- Questionário -->
+        <div id="quiz-screen" class="screen hidden">
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <h2 id="question-text"></h2>
+            <div id="options-container" class="options-container">
+                <!-- Opções do quiz serão injetadas aqui pelo JavaScript -->
+            </div>
+            <button id="next-btn" class="btn hidden">Próxima Pergunta</button>
+        </div>
+
+        <!-- Tela de Resultado -->
+        <div id="result-screen" class="screen hidden">
+            <h2 id="result-title"></h2>
+            <div class="result-content">
+                <img id="character-image" src="" alt="Personagem da Mitologia Nórdica" class="character-image">
+                <div class="character-details">
+                    <h3 id="character-name"></h3>
+                    <p id="character-description"></p>
+                    <p id="character-score"></p>
+                </div>
+            </div>
+            <button id="restart-btn" class="btn">Recomeçar</button>
+        </div>
+    </div>
+
+    <script src="asgard.js"></script>
+</body>
+</html>
